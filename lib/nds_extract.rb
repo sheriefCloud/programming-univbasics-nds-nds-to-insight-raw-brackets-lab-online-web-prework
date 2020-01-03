@@ -11,6 +11,7 @@ def directors_totals(nds)
   i = 0
   while i < nds.size do
     dir_name = nds[i][:name]
+<<<<<<< HEAD
       j=0
       rev = 0
       while j < nds[i][:movies].size do
@@ -23,6 +24,18 @@ def directors_totals(nds)
 
 
   #binding.pry
+=======
+    result[dir_name] = 0
+  end
+  #
+  # Use loops, variables and the accessing method, [], to loop through the NDS
+  # and total up all the
+  # ...
+  # ...
+  # ...
+  #
+  binding.pry
+>>>>>>> 39838327281ca9498863ef91bc80a593f31835b2
   # Be sure to return the result at the end!
   result
 end
